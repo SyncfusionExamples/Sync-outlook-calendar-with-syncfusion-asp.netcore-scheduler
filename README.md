@@ -1,5 +1,5 @@
 # Sync-outlook-calendar-with-syncfusion-asp.netcore-scheduler
-The application explains how to get events from Office 365 Outlook and display it in ASP.NET Core Schedule using Microsoft Graph API and Azure AD.
+The application explains how to get events from Office 365 Outlook and display it in ASP.NET Core Scheduler using Microsoft Graph API and Azure AD.
 
 ## Prerequisites
 
@@ -20,4 +20,4 @@ dotnet user-secrets set "AzureAd:ClientSecret" "YOUR_APP_SECRET"
 ```
 * Sign in to your Microsoft 365 account.
 * Run the project the permission prompt will be opened. Click the Accept button.
-* The home page of the project will be opened. Navigate to the `Calendar` page the Schedule loaded with the Outlook appointments.
+* The home page of the project will be opened. Navigate to the `Calendar` page the Scheduler loaded with the Outlook appointments.
