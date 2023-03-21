@@ -11,7 +11,7 @@ The application explains how to get events from Office 365 Outlook and display i
 * Checkout this project to a location in your disk.
 * Open the solution file using the `Visual Studio 2019`.
 * Restore the NuGet packages by rebuilding the solution.
-* Generate the `ClientId` and `ClientSecret` by following the steps provided in the [Configure an Azure AD app to connect to Microsoft 365](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-show-user-emails/2-exercise-configure-azure-ad-app) page and keep the `ClientId` and `ClientSecret` to perform the next steps.
+* Generate the `ClientId` and `ClientSecret` by following the steps provided in the [Configure an Azure AD app to connect to Microsoft 365](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-access-user-events/2-exercise-configure-azure-ad-app) page and keep the `ClientId` and `ClientSecret` to perform the next steps.
 * Open the `Package Manager Console` in the project and run the following commands with your generated `ClientId` and `ClientSecret` values.
 ```console
 dotnet user-secrets init
